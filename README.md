@@ -12,6 +12,18 @@ chatbot to talk with bots
  - git clone
  - start index.html
 
+### Structure
+
+.
+├── README.md
+├── assets
+├── css
+│   ├── index.css
+│   ├── lib
+│   │   └── bootstrap.min.css
+│   └── reset.css
+└── index.html
+
 ### Components
 
 - Contact
