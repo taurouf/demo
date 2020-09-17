@@ -13,7 +13,7 @@ chatbot to talk with bots
  - start index.html
 
 ### Structure
-
+```bash
 .
 ├── README.md
 ├── assets
@@ -23,6 +23,7 @@ chatbot to talk with bots
 │   │   └── bootstrap.min.css
 │   └── reset.css
 └── index.html
+```
 
 ### Components
 
