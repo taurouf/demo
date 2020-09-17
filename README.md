@@ -12,7 +12,6 @@ chatbot to talk with bots
  - git clone
  - start index.html
 
-
 ### Components
 
 - Contact
@@ -28,6 +27,6 @@ chatbot to talk with bots
 * [Sublime Text](https://www.sublimetext.com/) - Editeur de textes
 
 
-## Auteurs
+## Author
 
 * **Louis Gregory** _alias_ [@taurouf](https://github.com/taurouf)
