@@ -4,3 +4,176 @@
    * Reset
    */
    @import "reset.css";
+
+  /**
+   * Contacts Profiles
+   */
+
+   #app{
+    min-width: 803px;
+
+  }
+  .contacts {
+    width: 30%;
+    float: left;
+    overflow-y: scroll;
+    height: 500px;
+
+  }
+
+  .contacts--profiles {
+    background: grey;
+    padding: 10px 0px 10px 10px;
+    height: 75px;
+  }
+  .contacts--profiles-name > span{
+    margin-left: 28px
+  }
+
+  .contacts--profiles-avatar img {
+    width: 70px;
+    border-radius: 50px;
+    border: 1px solid black;
+  }
+
+  .contacts--profiles-name span {
+    margin-top: 25px;
+    display: block;
+    font-size: 20px;
+  }
+
+  .contacts--profiles-avatar {
+    width: 20%;
+  }
+
+  .contacts--profiles-name {
+    width: 70%;
+  }
+
+  .contacts--profiles-avatar, .contacts--profiles-name {
+    float: left;
+  }
+
+  /**
+   * Contacts List
+   */
+   .contacts--list ul li {
+    text-decoration: none;
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+    height: 55px;
+  }
+  .contacts--list ul li:last-child {
+    border: none;
+  }
+
+  .contacts--list-item-avatar, .contacts--list-item-name, .contacts--list-item-counter {
+    float: left;
+  }
+
+  .contacts--list-item-avatar img {
+    width: 50px;
+    border-radius: 50px;
+  }
+
+  .contacts--list-item-name, .contacts--list-item-counter {
+    margin-left: 10px;
+  }
+
+  .contacts--list-item-name span, .contacts--list-item-counter span {
+    margin-top: 20px;
+    display: block;
+    font-size: 17px;
+  }
+
+  .messages{
+    float: right;
+    width: 70%;
+    position: relative;
+    background-color: #e5ddd5;
+  }
+
+  .message--send{
+    width: 19%;
+  }
+
+  .messages--received-status-avatar > img{
+    border-radius: 50%;
+    width: 70px;
+  }
+
+  .messages--received-text{
+    border: black solid 2px;
+    border-radius: 20px 20px 20px 0px;
+    float: left;
+    width: 84%;
+    background-color: #ffffff;
+  }
+
+  .messages--received-text > p{
+    padding: 8px;
+  }
+
+  .messages--received{
+   margin-left: 8px;
+   margin-top: 8px;
+   float:left;
+ }
+
+ .messages--send-status-avatar > img{
+  border-radius: 50%;
+  width: 70px;
+}
+
+.messages--send-text{
+  border: black solid 2px;
+  border-radius: 20px 20px 0px 20px;
+  float: right;
+  width: 50%;
+  margin-bottom: 4%;
+  background-color: #dcf7c7;
+  padding: 8px;
+}
+
+.messages--send-status{
+  margin-left: 29%;
+}
+.messages--received-status{
+  float: left;
+}
+
+.css-input {
+ padding: 4px;
+ font-size: 16px;
+ border-width: 2px;
+ border-color: #CCCCCC;
+ background-color: #FFFFFF;
+ color: #000000;
+ border-style: solid;
+ border-radius: 50px;
+ box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+ flex-grow: 1;
+}
+
+.css-input:focus {
+ outline:none;
+}
+
+.messages__wrapper{
+
+  height: 500px;
+  overflow: scroll; 
+
+}
+
+form{
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.messages--received-text p:last-child{
+  margin-bottom: px
+}
+
