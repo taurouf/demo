@@ -28,6 +28,7 @@ chatbot to talk with bots
 ### Components
 
 - Contact:
+
 Component used to display contacts
 ```html
 <div class="contacts">
@@ -62,7 +63,7 @@ Component used to display contacts
 - Message:
 Component used to display conversations between contacts
 
-  - Bulle des messages:
+  - message bubble:
   ```html
             <div class="messages--received">
             <div class="messages--received-status">
