@@ -30,7 +30,7 @@ chatbot to talk with bots
 - Contact
 - Message
   - Bulle des messages
-  - Zone d'envoi
+- Typping message
 
 
 ## Made with
